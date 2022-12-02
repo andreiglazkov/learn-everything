@@ -74,26 +74,31 @@ li {
     align-items: center;
 }
 
-#header-left-side h4 {
+#header-left-side h3 {
+    margin-bottom: .5em;
+}
+
+#header-left-side h5 {
     color: darkgray;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 #header-right-side {
     display: flex;
-    border: 1px solid blue;
     justify-content: end;
     width: 60%;
+    box-shadow: .5em .5em .9em gray;
 }
 
 .header-button {
     background-color: blue;
     border: aqua;
-    width: 15em;
+    width: 12em;
     height: 2.8em;
     color: white;
-    font-size: 20px;
-    margin-top: 1em;
-
+    font-size: .8em;
+    margin-top: .5em;
 }
 
 .header-button:hover {
@@ -101,21 +106,60 @@ li {
     border: blue;
 }
 
-#hobby-img {
+#examination-img {
     width: 100%;
     height: 100%;
 }
 
-/*----------Languages----------*/
+/*----------Über die Prüfung----------*/
+.about-exam {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: azure;
+    border-top: 1px solid grey;
+    padding-left: 2em;
+}
+
+.about-exam h3 {
+    align-self: center;
+}
+
+.about-exam-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.examination2 {
+    width: 20%;
+    height: 20%;
+}
+
+.about-exam-inner div {
+    width: 100%;
+    height: 60%;
+    background-color: darkgray;
+    margin: 0 1em 2em 1em;
+    overflow: scroll;
+}
+
+/*----------Information----------*/
+.info {
+    border-top: 1px solid gray;
+}
+
+.info h1 {
+    margin: 3em;
+}
+
+/*----------Themenbereiche----------*/
 
 
-/*----------Guitar----------*/
+/*----------Mögliche Fragen----------*/
 
 
-/*----------Ukulele----------*/
-
-
-/*----------Drum kit----------*/
+/*----------Footer----------*/
 
 
 /*----------Programming----------*/

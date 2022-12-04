@@ -1,3 +1,10 @@
+/*----------Global variables----------*/
+html {
+    --project__margin__s: 0.5em;
+    --project__margin__m: 1em;
+    --project__margin__l: 2em;
+}
+
 /*----------Common settings----------*/
 body {
     font-size: 24px;
@@ -182,7 +189,7 @@ li {
 .themes-inner div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     float: left;
 }
 
@@ -191,13 +198,12 @@ li {
     display: flex;
     align-self: center;
     text-align: left;
-    width: 70%;
     padding-left: 10%;
 }
 
 .icon {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     opacity: 0.5;
     align-self: center;
 }

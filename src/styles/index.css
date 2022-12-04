@@ -157,7 +157,50 @@ li {
 }
 
 /*----------Themenbereiche----------*/
+.themes {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
 
+.themes h3 {
+    text-align: center;
+}
+
+.themes-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.themes-inner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+
+.themes-inner div h4 {
+    color: gray;
+    display: flex;
+    align-self: center;
+    text-align: left;
+    width: 70%;
+    padding-left: 10%;
+}
+
+.icon {
+    width: 3em;
+    height: 3em;
+    opacity: 0.5;
+    align-self: center;
+}
 
 /*----------Mögliche Fragen----------*/
 
